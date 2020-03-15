@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d798b8f-4ba1-487c-80e3-689f3002ae3d" name="Default Changelist" comment="">
+    <list default="true" id="9d798b8f-4ba1-487c-80e3-689f3002ae3d" name="Default Changelist" comment="commit after #27">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/SignedInLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/SignedInLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/CreateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/CreateProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/ProjectDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/authAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/authAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/authReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +104,8 @@
       <workItem from="1584113755105" duration="1324000" />
       <workItem from="1584115284185" duration="1629000" />
       <workItem from="1584118082352" duration="13093000" />
-      <workItem from="1584207336559" duration="8649000" />
+      <workItem from="1584207336559" duration="11284000" />
+      <workItem from="1584286361229" duration="9934000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="secend commit">
       <created>1584218560929</created>
@@ -123,33 +136,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="secend commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="secend commit" />
+    <MESSAGE value="commit after #27" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit after #27" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="3" key="CommitChangelistDialog2" timestamp="1584218558183">
+    <state x="313" y="3" key="CommitChangelistDialog2" timestamp="1584302011241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="313" y="3" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584218558183" />
+    <state x="313" y="3" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584302011241" />
     <state x="620" y="158" key="FileChooserDialogImpl" timestamp="1584215904962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="620" y="158" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584215904962" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584210438591">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584287831943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584210438591" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584210438591">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584287831943" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584287831942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584210438591" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584210438590">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584287831942" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584287831941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584210438590" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584210438591">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584287831941" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584287831943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584210438591" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584287831943" />
     <state x="349" y="46" key="SettingsEditor" timestamp="1584115339704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

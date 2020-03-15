@@ -12,6 +12,7 @@ import {ReactReduxFirebaseProvider, getFirebase} from "react-redux-firebase";
 import fbConfig from './config/fbConfig';
 import firebase from "firebase";
 
+
 const store = createStore(rootReducer,
     compose(
         applyMiddleware(thunk.withExtraArgument({ getFirebase, getFirestore })),
@@ -23,8 +24,9 @@ const rrfProps = {
     firebase,
     config: fbConfig,
     dispatch: store.dispatch,
-    createFirestoreInstance
+    createFirestoreInstance,
 };
+
 
 ReactDOM.render(
     <Provider store={store}>

@@ -6,7 +6,8 @@ import { Redirect } from "react-router-dom";
 class SignIn extends Component {
     state = {
         email: "",
-        password: ''
+        password: '',
+        isFormSubmitted: false
     };
     handleChange = (e) => {
         this.setState({
@@ -16,6 +17,11 @@ class SignIn extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.signIn(this.state);
+        this.setState({
+            ...this.state,
+            isFormSubmitted: true,
+            authError: null
+        })
     };
     render() {
         const {authError, auth} = this.props;
@@ -34,14 +40,14 @@ class SignIn extends Component {
                     </div>
                     <div className="input-field">
                         <button className="btn pink lighten-1 z-depth-0">Login</button>
-                        {
-                            authError ?
-                                <div className="red-text center">
-                                    <p>{authError}</p>
-                                </div>
-                                : null
-                        }
                     </div>
+                    {
+                        this.state.isFormSubmitted && authError ?
+                            <div className="red-text center">
+                                <p>{authError}</p>
+                            </div>
+                            : null
+                    }
                 </form>
             </div>
         )

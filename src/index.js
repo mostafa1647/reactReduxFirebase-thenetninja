@@ -1,3 +1,4 @@
+'noImplicitUseStrict';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -8,25 +9,34 @@ import rootReducer from "./store/reducers/rootReducer";
 import { Provider } from 'react-redux';
 import thunk from "redux-thunk";
 import {reduxFirestore, getFirestore, createFirestoreInstance} from "redux-firestore";
-import {ReactReduxFirebaseProvider, getFirebase} from "react-redux-firebase";
+import {ReactReduxFirebaseProvider, getFirebase, reactReduxFirebase} from "react-redux-firebase";
 import fbConfig from './config/fbConfig';
 import firebase from "firebase";
+
+
+
 
 
 const store = createStore(rootReducer,
     compose(
         applyMiddleware(thunk.withExtraArgument({ getFirebase, getFirestore })),
-        reduxFirestore(fbConfig),
+        reduxFirestore(fbConfig)
     )
 );
 
-const rrfProps = {
-    firebase,
-    config: fbConfig,
-    dispatch: store.dispatch,
-    createFirestoreInstance,
+const rrfConfig = {
+    useFirestoreForProfile: true,
+    userProfile: 'users'
 };
 
+const rrfProps = {
+    firebase,
+    config: rrfConfig,
+    dispatch: store.dispatch,
+    createFirestoreInstance,
+    useFirestoreForProfile: true,
+    userProfile: 'users'
+};
 
 ReactDOM.render(
     <Provider store={store}>

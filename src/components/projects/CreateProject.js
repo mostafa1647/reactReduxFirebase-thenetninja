@@ -20,6 +20,7 @@ class CreateProject extends Component {
             title: "",
             content: ""
         });
+        this.props.history.push('/');
     };
     render() {
         if(!this.props.auth.uid) return <Redirect to={'/signin'} />;

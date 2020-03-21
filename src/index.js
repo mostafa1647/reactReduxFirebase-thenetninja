@@ -1,4 +1,3 @@
-'noImplicitUseStrict';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -33,9 +32,7 @@ const rrfProps = {
     firebase,
     config: rrfConfig,
     dispatch: store.dispatch,
-    createFirestoreInstance,
-    useFirestoreForProfile: true,
-    userProfile: 'users'
+    createFirestoreInstance
 };
 
 ReactDOM.render(

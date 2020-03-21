@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d798b8f-4ba1-487c-80e3-689f3002ae3d" name="Default Changelist" comment="commit after #27">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9d798b8f-4ba1-487c-80e3-689f3002ae3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/auth/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/SignIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/auth/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/SignedInLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/SignedInLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/Notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/Notifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/CreateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/CreateProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/ProjectDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/ProjectSummary.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/authAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/authAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/authReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/projectActions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +126,9 @@
       <workItem from="1584207336559" duration="11284000" />
       <workItem from="1584286361229" duration="10436000" />
       <workItem from="1584336037859" duration="146000" />
-      <workItem from="1584352850085" duration="14801000" />
+      <workItem from="1584352850085" duration="15436000" />
+      <workItem from="1584422685069" duration="601000" />
+      <workItem from="1584804833098" duration="13440000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="secend commit">
       <created>1584218560929</created>
@@ -138,7 +148,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۳" />
       <updated>1584302220409</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎۰۰۰۰۴" summary="commit after #29">
+      <created>1584396447729</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۴" />
+      <updated>1584396447729</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +178,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="secend commit" />
     <MESSAGE value="commit after #27" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit after #27" />
+    <MESSAGE value="commit after #29" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit after #29" />
   </component>
   <component name="WindowStateProjectService">
     <state x="350" y="70" key="#Deployment" timestamp="1584302461702">
@@ -177,22 +194,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="620" y="158" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584215904962" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584376640975">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584805998619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584376640975" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584376640974">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584805998619" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584805998618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584376640974" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584376640974">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584805998618" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584805998618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584376640974" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584376640975">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584805998618" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584805998618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584376640975" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584805998618" />
     <state x="461" y="123" key="RollbackChangesDialog" timestamp="1584390593826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -201,10 +218,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="46" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584115339704" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584336089831">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584804847346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584336089815" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584804847346" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584302171440">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

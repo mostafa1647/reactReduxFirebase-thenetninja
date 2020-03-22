@@ -20,6 +20,19 @@ exports.projectCreated = functions.firestore.document('projects/{projectId}').on
         content: 'Added a new project',
         user: `${project.authorFirstName} ${project.authorLastName}`,
         time: admin.firestore.FieldValue.serverTimestamp()
-    }
+    };
     return createNotification(notification);
+});
+
+exports.userJoined = functions.auth.user().onCreate(user => {
+    return admin.firestore().collection('users').doc(user.uid).get().then(doc => {
+        const newUser = doc.data();
+        const notification = {
+            content: 'joined the party',
+            user: `${newUser.firstName} ${newUser.lastName}`,
+            time: admin.firestore.FieldValue.serverTimestamp()
+        };
+
+        return createNotification(notification);
+    });
 });

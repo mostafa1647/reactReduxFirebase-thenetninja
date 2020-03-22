@@ -18,7 +18,7 @@ const ProjectDetails = (props) => {
                     </div>
                     <div className="card-action lighten-4 grey-text">
                         <div>Posted By  {project.authorFirstName + " " + project.authorLastName} </div>
-                        <div>{ moment(project.createdAt.toDate()).calendar() }</div>
+                        <div>{ moment(project.createdAt.toDate()).tz("Asia/Tehran").calendar() }</div>
                     </div>
                 </div>
             </div>

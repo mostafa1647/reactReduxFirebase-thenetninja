@@ -10,6 +10,7 @@
     "firebase": "^7.11.0",
     "materialize-css": "^1.0.0-rc.2",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-redux": "^7.2.0",
